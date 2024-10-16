@@ -1,0 +1,7 @@
+---
+- name: Remove Firewall Rule
+  hosts: localhost
+  tasks:
+    - name: Simulate removing a firewall rule
+      local_action: command echo "Simulating removal of a firewall rule: Allow TCP port 80 from 0.0.0.0/0"
+

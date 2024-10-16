@@ -1,0 +1,7 @@
+---
+- name: Add Firewall Rule
+  hosts: localhost
+  tasks:
+    - name: Simulate adding a firewall rule
+      local_action: command echo "Simulating adding a firewall rule: Allow TCP port 443 from 0.0.0.0/0"
+
